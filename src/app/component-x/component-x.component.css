@@ -1,0 +1,21 @@
+.container {
+  margin-top: 20px;
+}
+
+.container button {
+  margin-left: 10px;
+}
+*:focus {
+  outline: none;
+}
+
+.container label {
+  margin-right: 10px;
+}
+
+.x-back {
+  padding: 5px;
+  border: 2px solid rgba(242, 243, 183, 0.966);
+  border-radius: 5px;
+  background-color: rgba(242, 243, 183, 0.925);
+}

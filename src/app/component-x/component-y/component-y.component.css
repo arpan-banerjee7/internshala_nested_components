@@ -1,0 +1,13 @@
+.container {
+  margin-top: 20px;
+}
+.purple-border textarea {
+  border: 1px solid #ba68c8;
+}
+.purple-border :focus {
+  border: 1px solid #ba68c8;
+  box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, 0.25);
+}
+*:focus {
+  outline: none;
+}

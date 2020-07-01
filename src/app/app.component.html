@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto">
+      <br />
+      <button class="btn btn-warning btn-lg" (click)="onComponentAdded()">
+        Add Component X
+      </button>
+      <br />
+      <app-component-x
+        [xIndex]="i"
+        *ngFor="let x of componenet_x_Arr; let i = index"
+      ></app-component-x>
+      <br />
+      <button
+        type="button"
+        class="btn btn-success btn-lg btn-block"
+        (click)="save()"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+</div>

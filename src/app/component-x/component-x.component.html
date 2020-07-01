@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="x-back">
+    <label>Component X</label>
+    <input type="text" [(ngModel)]="xData" />
+    <button class="btn btn-primary" (click)="onAdded($event)">+</button>
+  </div>
+
+  <app-component-y
+    [xData]="xData"
+    [yIndex]="i"
+    [xIndex]="xIndex"
+    *ngFor="let y of component_y_arr; let i = index"
+  ></app-component-y>
+</div>

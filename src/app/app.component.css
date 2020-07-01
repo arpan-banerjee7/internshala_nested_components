@@ -1,0 +1,6 @@
+.container {
+  margin-top: 20px;
+}
+*:focus {
+  outline: none;
+}
